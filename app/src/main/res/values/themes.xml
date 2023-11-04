@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideoGamesRF" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#1E2746</item>
+    </style>
+
+    <style name="Theme.VideoGamesRF" parent="Base.Theme.VideoGamesRF" />
+
+    <style name="Splash" parent="Base.Theme.VideoGamesRF">
+        <item name="android:windowBackground">
+            @drawable/splash_screen
+        </item>
+    </style>
+</resources>
